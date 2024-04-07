@@ -59,7 +59,7 @@ return (
                 <div className='flex justify-between px-3 py-4'>
                     <p className='font-bold'>{car.name}</p>
                     <p> 
-                        <span className='bg-red-600 text-white rounded-full p-1 sm:text-[10px] lg:text-lg'>{car.price} $ </span>
+                        <span className='bg-red-600 text-white rounded-full p-1 text-sm lg:text-lg'>{car.price} $ </span>
                     </p>
                 </div>
             </div>
